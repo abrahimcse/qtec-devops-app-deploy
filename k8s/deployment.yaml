@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: qtec-devops-task
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: qtec-devops-task
