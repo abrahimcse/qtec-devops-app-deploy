@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: qtec-devops-task
-        image: <DOCKERHUB_USERNAME>/qtec-devops-task:latest
+        image: abrahimcse/qtec-devops-task:5ef7ddc
         ports:
         - containerPort: 5000
