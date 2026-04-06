@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qtec-devops-task
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: qtec-devops-task
+  template:
+    metadata:
+      labels:
+        app: qtec-devops-task
+    spec:
+      containers:
+      - name: qtec-devops-task
+        image: <DOCKERHUB_USERNAME>/qtec-devops-task:latest
+        ports:
+        - containerPort: 5000
