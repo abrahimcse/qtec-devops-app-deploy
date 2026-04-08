@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: qtec-devops-task
-        image: abrahimcse/qtec-devops-task:cc424ac
+        image: abrahimcse/qtec-devops-task:c2faa85
         ports:
         - containerPort: 5000
         resources:
